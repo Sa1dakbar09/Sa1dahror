@@ -1,0 +1,141 @@
+.box,
+.ota {
+    -webkit-box-align: center
+}
+
+.box h1,
+.box p,
+.ota p {
+    text-align: left
+}
+
+#sec_2,
+#sec_2 h2 {
+    text-align: center
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto/Roboto400.ttf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.container {
+    margin: 0 auto;
+    width: 100vw
+}
+
+main img {
+    width: 1300px;
+    height: 726px;
+    margin: 0 25px
+}
+
+.box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 1200px;
+    height: 174px;
+    margin: 50px auto
+}
+
+.box2 div,
+.ota {
+    display: -webkit-box;
+    display: -ms-flexbox
+}
+
+.box h1 {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px
+}
+
+#sec_2,
+.box p,
+.ota p {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400
+}
+
+.box p {
+    line-height: 40px;
+    color: #aaa
+}
+
+#sec_1 {
+    margin: 200px auto
+}
+
+.ota {
+    height: 400px;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    margin-top: 70px
+}
+
+.ota img {
+    width: 588px;
+    height: 412px
+}
+
+.ota p {
+    line-height: 28px
+}
+
+#sec_2 h2 {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #1a1a1a
+}
+
+#sec_2 {
+    line-height: 36px;
+    color: #4a4a4a
+}
+
+.box2 {
+    border: 2px solid red;
+    margin: 100px 120px
+}
+
+.box2 div {
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.box2 div img {
+    width: 107px;
+    height: 60px;
+    margin-top: 30px
+}
+
+#sec_3 img {
+    width: 1344px;
+    height: 1000px
+}
